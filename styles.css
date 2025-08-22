@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f0f2f5;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.map-container {
+  flex: 3;
+  position: relative;
+  background: url("campus-map.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+#map {
+  width: 100%;
+  height: 100%;
+}
+
+.sidebar {
+  flex: 1;
+  background: #222;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sidebar h2 {
+  margin-bottom: 15px;
+}
+
+.sidebar button {
+  padding: 10px;
+  background: #3a86ff;
+  border: none;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.sidebar button:hover {
+  background: #265cc4;
+}
