@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NIT Agartala Smart Campus Visualizer</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/konva@9/konva.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="map-container">
+      <div id="map"></div>
+    </div>
+    <div class="sidebar">
+      <h2>Controls</h2>
+      <button onclick="addRouter()">Add Router</button>
+      <button onclick="addSwitch()">Add Switch</button>
+      <button onclick="addAP()">Add Access Point</button>
+      <button onclick="addServer()">Add Server</button>
+      <button onclick="simulate()">Simulate</button>
+      <button onclick="clearStage()">Clear</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
